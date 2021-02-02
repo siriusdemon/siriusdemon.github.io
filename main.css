@@ -50,3 +50,11 @@ header {
 .bg {
     background-color: rgb(230, 230, 230);
 }
+
+@media (max-width: 600px) {
+    html {
+        width: 100%;
+        margin: 0;
+        font-size: large;
+    }
+}
