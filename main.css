@@ -51,10 +51,15 @@ header {
     background-color: rgb(230, 230, 230);
 }
 
-@media (max-width: 600px) {
+@media (orientation: portrait) {
     html {
         width: 100%;
         margin: 0;
+    }
+    body {
         font-size: large;
+    }
+    nav {
+        font-size: larger;
     }
 }
