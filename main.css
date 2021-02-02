@@ -1,0 +1,52 @@
+html {
+    width: 80%; height: 100%; 
+    margin: 0 10%; 
+    font-family: 'Times New Roman', Times, serif;
+    overflow: scroll;
+}
+
+body {
+    border: 5px solid rgb(180, 180, 180);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted gray;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    width: 24%;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover { background-color: rgb(180, 180, 180);}
+
+.main {
+    text-indent: 2em;
+    padding: 0 1em;
+}
+
+em {
+    font-style: normal;
+    font-size: larger;
+    border-bottom: 1px dotted gray;
+    padding: 0 0.2em;
+}
+
+header {
+    font-size: larger;
+    line-height: 1.5em;
+}
+.center {
+    text-align: center;
+}
+.bg {
+    background-color: rgb(230, 230, 230);
+}
